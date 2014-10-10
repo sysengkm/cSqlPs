@@ -11,3 +11,4 @@ class PSHOrg_cSqlHAEndPoint : OMI_BaseResource
 };
 
 
+

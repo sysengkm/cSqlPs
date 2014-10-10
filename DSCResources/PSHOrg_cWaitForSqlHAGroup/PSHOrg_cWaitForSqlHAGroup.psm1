@@ -283,3 +283,4 @@ function Get-SQLInstanceName ($node, $InstanceName)
 
 Export-ModuleMember -Function *-TargetResource
 
+

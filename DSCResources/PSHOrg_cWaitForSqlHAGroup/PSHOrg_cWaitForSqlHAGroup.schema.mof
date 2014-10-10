@@ -17,3 +17,4 @@ class PSHOrg_cWaitForSqlHAGroup : OMI_BaseResource
     String SqlAdministratorCredential;
 };
 
+
