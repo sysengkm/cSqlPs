@@ -29,6 +29,7 @@ Set MaxDegreeofParallelism to 4 on Default SQL Instance:
 			        }	
 
 EXAMPLE Config:
+
 	Configuration sqltest
 	{
 	Import-DscResource  -module cSqlPs
