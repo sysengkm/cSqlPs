@@ -1,0 +1,16 @@
+#pragma namespace("\\\\.\\root\\microsoft\\windows\\DesiredStateConfiguration")
+
+[ClassVersion("1.0.1"), FriendlyName("cSqlServerConfig")] 
+class sysengkm_cSqlServerConfig : OMI_BaseResource
+{
+    [key, Description("The name of the sql property to set.")] string SqlPropertyName;
+
+    [Description("The name of sql instance.")] string InstanceName;
+
+    [write, Description("The value to set")] string SqlPropertyValue;
+
+
+};
+
+
+
